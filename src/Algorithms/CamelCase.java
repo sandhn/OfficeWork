@@ -6,7 +6,7 @@ public class CamelCase {
 
 	public static void main(String[] args) 
 	{
-		System.out.println("Enter a sentance without space");
+		System.out.println("Enter a sentance without space:");
 		Scanner scan = new Scanner(System.in);
 		String s = scan.nextLine();
 		char[] a = s.toCharArray();
