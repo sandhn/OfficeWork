@@ -23,7 +23,7 @@ public class RemovingSpaces {
 	            }
 	        }
 	
-	        System.out.println(sb); 
+	        System.out.println(sb);
 		 
 	
 	}
