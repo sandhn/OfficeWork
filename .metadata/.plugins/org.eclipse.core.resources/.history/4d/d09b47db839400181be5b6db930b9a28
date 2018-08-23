@@ -1,0 +1,11 @@
+package com.myntra.generic;
+
+public class BaseTest 
+{
+
+	@BeforeMethod
+	{
+		
+	}
+	
+}

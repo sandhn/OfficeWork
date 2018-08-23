@@ -1,0 +1,27 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class list {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<String> a= new ArrayList<String>();
+		
+		a.add("Test");
+		a.add("Test2");
+		a.add("Test");
+		int count=0; 
+		
+		for(int i=0;i<a.size();i++)
+		{
+			if(a.get(i)=="Test")
+			count++;
+		}
+		if(count>0)
+			System.out.println("Element present");
+		else
+			System.out.println("Element Not present");
+	}
+
+}

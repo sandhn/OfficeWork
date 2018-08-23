@@ -1,0 +1,26 @@
+package Algorithms;
+
+public class SuperReducedString {
+
+	public static void main(String[] args) 
+	{
+		String str= "aaabccddd";
+		int i=0,j=0;
+		String sub1,sub2;
+		while( j<str.length())
+		{
+			if(str.charAt(i)==str.charAt(i+1))
+			{
+				sub1=str.substring(i, i+1);
+				sub2=str.substring(i+2, str.length());
+				str=sub1+sub2;
+				j++;
+				System.out.println(str);
+			}
+			
+		}
+		//System.out.println(str);
+
+	}
+
+}
