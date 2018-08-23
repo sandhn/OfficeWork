@@ -32,7 +32,7 @@ public class Panagram2 {
                                
                   index = str.charAt(i) - 'a';
              
-              // Mark current character
+              // Mark current characte
               mark[index] = true;
     }
 
@@ -61,7 +61,7 @@ public class Panagram2 {
             char h2='C';
             
             System.out.println(h2-h1);
-
+System.out.println("Test");
       } 
 
 
